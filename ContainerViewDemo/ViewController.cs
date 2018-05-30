@@ -38,12 +38,12 @@ namespace ContainerViewDemo
 
     public class MyTableSource : UITableViewSource
     {
-ContainerViewController container;
+        ContainerViewController container;
 
-public MyTableSource(ContainerViewController viewController)
-{
-    container = viewController;
-}
+        public MyTableSource(ContainerViewController viewController)
+        {
+            container = viewController;
+        }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
